@@ -428,8 +428,20 @@ class TextBasedAssessment:
         """Generate full transcript from responses"""
         transcript_parts = []
         for response in self.responses:
-            transcript_parts.append(f"Q: {response['question_text']}")
-            transcript_parts.append(f"A: {response['response_text']}")
+            # Find matching question
+            q_num = response.get('question_number', 0)
+            q_text = response.get('question_text', '')
+
+            # If no question_text, try to find it from config
+            if not q_text and q_num > 0:
+                for q in self.questions:
+                    if q.get('number') == q_num:
+                        q_text = q.get('text', '')
+                        break
+
+            if q_text:
+                transcript_parts.append(f"Q: {q_text}")
+            transcript_parts.append(f"A: {response.get('response_text', '')}")
 
         return "\n\n".join(transcript_parts)
 
