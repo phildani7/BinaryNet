@@ -1,0 +1,225 @@
+# Ikigai Assessment Questions - 20 Questions using Motivational Interviewing
+# Based on validated methodologies: OARS framework, Five Whys, Socratic questioning
+
+# Question metadata:
+# - dimension: love, good_at, world_needs, paid_for, synthesis
+# - intensity: light, moderate, heavy (cognitive load)
+# - pause_after: seconds to wait after question
+# - voice_direction: emotional tone for ElevenLabs
+
+questions:
+  # CONTEXT SETTING (10%) - Questions 1-2
+  - number: 1
+    dimension: context
+    intensity: light
+    text: "Welcome to your Ikigai Assessment. Over the next 25 minutes, I'll ask you 20 questions designed to help you discover the intersection of what you love, what you're good at, what the world needs, and what you can be paid for. There are no right or wrong answers—just speak honestly and from your heart. I'll give you plenty of time to think. Are you ready to begin?"
+    pause_after: 7
+    voice_direction: "[warmly, welcoming]"
+    response_expected: true
+
+  - number: 2
+    dimension: context
+    intensity: light
+    text: "Before we dive deep, tell me briefly: What does a meaningful life look like to you? Don't overthink it—just share what comes to mind."
+    pause_after: 45
+    voice_direction: "[curious, gentle]"
+    response_expected: true
+
+  # WHAT YOU LOVE (20%) - Questions 3-6
+  - number: 3
+    dimension: love
+    intensity: moderate
+    text: "Let's explore what truly energizes you. Think about moments when you feel most alive and engaged—times when you're so absorbed that you lose track of time. Describe a specific experience like this. What were you doing? Who was there? What made it meaningful?"
+    pause_after: 60
+    voice_direction: "[warmly curious]"
+    response_expected: true
+
+  - number: 4
+    dimension: love
+    intensity: moderate
+    text: "Now, think about that feeling you just described. [PAUSE 3 SEC] Why is that experience satisfying to you? [PAUSE 5 SEC] What is it about that activity which matters? [PAUSE 5 SEC] Why is that important to you specifically? Take your time exploring this."
+    pause_after: 60
+    voice_direction: "[thoughtful, inviting reflection]"
+    response_expected: true
+
+  - number: 5
+    dimension: love
+    intensity: heavy
+    text: "Many people find it challenging to distinguish between what relaxes them and what truly energizes them. When you're doing the activities you love, do they leave you feeling energized and wanting more, or peaceful and relaxed? Tell me about the difference for you."
+    pause_after: 50
+    voice_direction: "[gentle, normalizing uncertainty]"
+    response_expected: true
+
+  - number: 6
+    dimension: love
+    intensity: moderate
+    text: "If you could spend an entire week doing only activities that fascinate you, with no obligations or constraints, what would fill your days? Be as specific as possible."
+    pause_after: 60
+    voice_direction: "[encouraging, expansive]"
+    response_expected: true
+
+  # WHAT YOU'RE GOOD AT (20%) - Questions 7-10
+  - number: 7
+    dimension: good_at
+    intensity: moderate
+    text: "You've clearly developed many skills over your life. Tell me about capabilities you've built where others actively seek your guidance or help. What do people come to you for?"
+    pause_after: 50
+    voice_direction: "[affirming, validating]"
+    response_expected: true
+
+  - number: 8
+    dimension: good_at
+    intensity: heavy
+    text: "Think about a skill where you have a natural ease—something that feels almost effortless to you, but you notice others struggling with. Walk me through how you approach tasks in this area. What do you do differently than others might?"
+    pause_after: 60
+    voice_direction: "[curious, analytical]"
+    response_expected: true
+
+  - number: 9
+    dimension: good_at
+    intensity: moderate
+    text: "Describe an accomplishment you're genuinely proud of—something where you demonstrated real competence. What skills did you use? What made you effective?"
+    pause_after: 55
+    voice_direction: "[encouraging, celebratory]"
+    response_expected: true
+
+  - number: 10
+    dimension: good_at
+    intensity: light
+    text: "Sometimes our greatest strengths are invisible to us because they come so naturally. If you asked three people who know you well what you're exceptionally good at, what would they say? Take a moment to really consider this."
+    pause_after: 50
+    voice_direction: "[reflective, patient]"
+    response_expected: true
+
+  # WHAT WORLD NEEDS (20%) - Questions 11-14
+  - number: 11
+    dimension: world_needs
+    intensity: heavy
+    text: "Now let's shift to the world around you. Think about problems that genuinely frustrate you—issues where you see a clear gap between what exists and what should be. Describe one problem in detail. What would be different if this problem were solved?"
+    pause_after: 60
+    voice_direction: "[serious, engaged]"
+    response_expected: true
+
+  - number: 12
+    dimension: world_needs
+    intensity: moderate
+    text: "Tell me about the root cause of this problem, as you understand it. Why does this issue persist? What's really driving it?"
+    pause_after: 55
+    voice_direction: "[analytical, probing]"
+    response_expected: true
+
+  - number: 13
+    dimension: world_needs
+    intensity: heavy
+    text: "Many people feel disconnected from the impact of their work. Does that resonate with you? [PAUSE 5 SEC] When you imagine making a meaningful contribution to solving problems in the world, what does that look like? Be specific about the people or communities you'd want to help."
+    pause_after: 60
+    voice_direction: "[empathetic, validating]"
+    response_expected: true
+
+  - number: 14
+    dimension: world_needs
+    intensity: moderate
+    text: "If you could dedicate your life to addressing one type of human need or solving one category of problem, what would it be? Why does this particular need call to you?"
+    pause_after: 55
+    voice_direction: "[curious, open]"
+    response_expected: true
+
+  # ECONOMIC VIABILITY (15%) - Questions 15-17
+  - number: 15
+    dimension: paid_for
+    intensity: moderate
+    text: "Let's talk practically about economic viability. Thinking about the interests and skills you've described, tell me about your understanding of how people currently earn money doing related work. What salary ranges exist? What credentials or experience do employers seek?"
+    pause_after: 60
+    voice_direction: "[practical, grounded]"
+    response_expected: true
+
+  - number: 16
+    dimension: paid_for
+    intensity: moderate
+    text: "What research have you done into the market demand for your skills and interests? Tell me specifically what you've learned about job availability, growth trends, or economic opportunities in areas that align with your passions."
+    pause_after: 55
+    voice_direction: "[curious, non-judgmental]"
+    response_expected: true
+
+  - number: 17
+    dimension: paid_for
+    intensity: heavy
+    text: "Sometimes there's tension between what we love and what pays well. What trade-offs, if any, would you be willing to make between financial compensation and meaningful work? What's your baseline for economic security?"
+    pause_after: 60
+    voice_direction: "[gentle, honest]"
+    response_expected: true
+
+  # SYNTHESIS & INTERSECTIONS (10%) - Questions 18-19
+  - number: 18
+    dimension: synthesis
+    intensity: heavy
+    text: "You've shared beautiful insights about what energizes you, what you're skilled at, needs you want to address, and economic realities. Where do you see these four elements overlapping? Is there a sweet spot where your passion, skills, the world's needs, and economic viability come together?"
+    pause_after: 75
+    voice_direction: "[synthesizing, thoughtful]"
+    response_expected: true
+
+  - number: 19
+    dimension: synthesis
+    intensity: heavy
+    text: "What question should you be asking yourself that I haven't asked? What's the most important thing to explore about your sense of purpose that we haven't touched on yet?"
+    pause_after: 60
+    voice_direction: "[meta, inviting deeper reflection]"
+    response_expected: true
+
+  # ACTION COMMITMENT (5%) - Question 20
+  - number: 20
+    dimension: action
+    intensity: moderate
+    text: "As we close, I want you to make one small commitment. Based on everything you've shared today, what's one concrete action you'll take in the next week to move closer to your ikigai—the intersection of what you love, what you're good at, what the world needs, and what you can be paid for? Be specific."
+    pause_after: 60
+    voice_direction: "[encouraging, action-oriented]"
+    response_expected: true
+
+# Assessment metadata
+metadata:
+  total_questions: 20
+  estimated_duration_minutes: 30
+  dimensions:
+    - love
+    - good_at
+    - world_needs
+    - paid_for
+
+  # Distribution
+  distribution:
+    context: 10%
+    love: 20%
+    good_at: 20%
+    world_needs: 20%
+    paid_for: 15%
+    synthesis: 10%
+    action: 5%
+
+  # ElevenLabs voice settings
+  elevenlabs:
+    recommended_voice_id: "g6xIsTj2HwM6VR4iXFCw"  # Jessica Anne Bogart
+    alternative_voices:
+      - voice_id: "OYTbf65OHHFELVut7v2H"  # Hope
+        tone: "bright, forward-looking"
+      - voice_id: "dj3G1R1ilKoFKhBnWOzG"  # Eryn
+        tone: "friendly, accessible"
+
+    voice_settings:
+      stability: 0.50
+      similarity: 0.75
+      speed: 1.0
+      speaker_boost: true
+
+  # Pause structure guidelines
+  pause_guidelines:
+    anticipatory: "2-3 seconds before questions"
+    standard_reflection: "5-7 seconds"
+    deep_introspection: "10-20 seconds"
+    section_transition: "3-5 seconds"
+
+  # Pacing
+  pacing:
+    words_per_minute_standard: 160
+    words_per_minute_complex: 140
+    question_delivery_time: "30-45 seconds"
+    response_time: "30-60 seconds per question"
